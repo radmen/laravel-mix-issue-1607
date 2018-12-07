@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "laravel-mix": "^3.0.0"
+  },
+  "name": "mix-error",
+  "scripts": {
+    "build": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  }
+}
